@@ -1,24 +1,3 @@
-# DigitalOcean Spaces Configuration
-DO_SPACES_KEY="DO801A7DUB7X6AGZA3P2"
-DO_SPACES_SECRET="ofkGE22/HEqYgzOBWHQUQwQEWrtbAEMJJen898rOYx4"
-DO_SPACES_ENDPOINT="blr1.digitaloceanspaces.com"
-DO_SPACES_CDN_ENDPOINT="https://d4dx-storage.blr1.cdn.digitaloceanspaces.com"
-DO_SPACES_BUCKET="d4dx-storage"
-DO_SPACES_FOLDER="thanima-assets/explore_ksa"
-DO_MAX_FILE_SIZE=5242880
-
-
-------------------------------------------------------------
-
-
-DXING_API_KEY=9d07dd4538190fc918a5ef6833bb95e8a7b5659a
-DXING_INSTANCE_ID=17503326891534b76d325a8f591b52d302e71813316853f511cb619
-
-
--------------------------------------------------------------
-
-
-
 [build]
   command = "npm run build"
   publish = "dist"

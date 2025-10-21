@@ -285,7 +285,7 @@ const Portfolio = () => {
       {/* Mobile Hero Section - Photo with Overlay */}
       <section className="lg:hidden -mt-4 pb-16 px-4 flex flex-col items-center justify-center min-h-screen">
         {/* Large Photo with Overlay */}
-        <div className="relative w-[350px] h-[450px] sm:w-[400px] sm:h-[500px] md:w-[450px] md:h-[550px] mx-auto mb-8 ml-0 sm:ml-auto">
+        <div className="relative w-[350px] h-[450px] sm:w-[400px] sm:h-[500px] md:w-[450px] md:h-[550px] mx-auto mb-8 -ml-2 sm:ml-auto">
           <img 
             src="/Remove background project.png" 
             alt="Nihadh - Full Stack Developer" 
@@ -328,7 +328,7 @@ const Portfolio = () => {
         </div>
         
         {/* Mobile Navigation Section */}
-        <nav className="mb-12" aria-label="In-page jump links">
+        <nav className="mb-12 -ml-2" aria-label="In-page jump links">
           <ul className="flex flex-col items-center space-y-4">
             {['about', 'experience', 'projects', 'contact'].map((section) => (
               <li key={section}>
@@ -346,7 +346,7 @@ const Portfolio = () => {
         </nav>
         
         {/* Mobile Social Links */}
-        <div className="mb-8 flex items-center justify-center space-x-6">
+        <div className="mb-8 -ml-2 flex items-center justify-center space-x-6">
           <a className="block hover:text-slate-200 transition-colors" href="https://github.com/nihxdh" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
             <Github className="h-6 w-6" />
           </a>
@@ -395,13 +395,13 @@ const Portfolio = () => {
              <h2 className="lg:hidden text-2xl font-bold text-slate-200 mb-8 text-center font-calibre uppercase tracking-widest">About</h2>
              <div className="space-y-8">
           <div className="transform transition-all duration-700 ease-in-out">
-                 <p className="text-gray-300 text-base leading-relaxed mb-4 font-sans transition-all duration-500">
+                 <p className="text-gray-300 text-base leading-relaxed mb-4 font-sans transition-all duration-500 text-center lg:text-left">
                    I'm a Full-Stack Developer who bridges traditional coding with the AI-powered future, combining foundational web development principles with innovative artificial intelligence integration. Building robust, scalable applications with the MERN stack while actively exploring how artificial intelligence can transform software creation processes is where my passion lies. My approach focuses on creating user-centric solutions that not only meet current needs but also anticipate the evolving landscape of modern web development.
                  </p>
-                 <p className="text-gray-300 text-base leading-relaxed mb-4 font-sans transition-all duration-500">
+                 <p className="text-gray-300 text-base leading-relaxed mb-4 font-sans transition-all duration-500 text-center lg:text-left">
                    I experiment extensively with AI tools throughout my entire development process, from initial code optimization and debugging to creative problem-solving and architectural decision-making. This unique blend of foundational programming skills, modern development practices, and cutting-edge AI exploration allows me to craft innovative, forward-thinking solutions that push the boundaries of what's possible. I believe in leveraging technology to enhance human capability rather than replace it, creating a synergy between traditional coding expertise and AI-assisted development.
                  </p>
-                 <p className="text-gray-300 text-base leading-relaxed font-sans transition-all duration-500">
+                 <p className="text-gray-300 text-base leading-relaxed font-sans transition-all duration-500 text-center lg:text-left">
                    My philosophy: the best developers embrace change and never stop learning. Whether debugging React components or testing the latest AI assistant, I approach every challenge with curiosity and creativity.
             </p>
           </div>

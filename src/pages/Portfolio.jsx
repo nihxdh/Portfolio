@@ -260,8 +260,8 @@ const Portfolio = () => {
           <li className="mr-0 shrink-0 text-xs">
             <a 
               className="block hover:text-slate-200" 
-              href="/K A NIHADH MUHAMMED.pdf" 
-              download="K A NIHADH MUHAMMED.pdf"
+              href="/K_A_NIHADH_MUHAMMED.pdf" 
+              download="K_A_NIHADH_MUHAMMED.pdf"
               aria-label="Download Resume" 
               title="Download Resume"
             >
@@ -358,8 +358,8 @@ const Portfolio = () => {
           </a>
           <a 
             className="block hover:text-slate-200 transition-colors" 
-            href="/K A NIHADH MUHAMMED.pdf" 
-            download="K A NIHADH MUHAMMED.pdf"
+            href="/K_A_NIHADH_MUHAMMED.pdf" 
+            download="K_A_NIHADH_MUHAMMED.pdf"
             aria-label="Download Resume"
           >
             <Download className="h-6 w-6" />
